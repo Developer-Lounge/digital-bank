@@ -6,8 +6,6 @@
     padding: 14px 16px;
     width: 190rem; 
     justify-content: center;
-    /* background-color: yellowgreen; */
-    /* justify-content: space-between; */
     overflow: hidden;
     gap: 10.5rem;
 }
@@ -23,7 +21,6 @@
     left: 6rem;
     gap: 1rem;
     font-size: 18px;
-    /* font-weight: 500; */
     margin-right: 10rem;
 }
 
