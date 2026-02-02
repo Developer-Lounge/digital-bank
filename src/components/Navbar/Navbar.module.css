@@ -1,0 +1,72 @@
+.nav{
+    display: flex;
+    position: fixed;
+    margin-left: -45rem;
+    margin-top: -1px;
+    padding: 14px 16px;
+    width: 190rem; 
+    justify-content: center;
+    /* background-color: yellowgreen; */
+    /* justify-content: space-between; */
+    overflow: hidden;
+    gap: 10.5rem;
+}
+
+.navImg{
+     margin-left: -1rem;
+}
+
+.navLinks{
+    display: flex;
+    position: relative;
+    top:2px;
+    left: 6rem;
+    gap: 1rem;
+    font-size: 18px;
+    /* font-weight: 500; */
+    margin-right: 10rem;
+}
+
+.requestInvite{
+    background: linear-gradient(90deg, #2FD071 0%, #2CBCC7 100%);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 10rem;
+}
+
+.navLinks1:hover{
+    text-decoration-line: underline;
+    color: black;
+    font-weight: 500;
+    text-decoration-color:  #2FD071;
+}
+.navLinks2:hover{
+    text-decoration: underline;
+    color: black;
+    font-weight: 500;
+    text-decoration-color:  #2FD071;
+}
+.navLinks3:hover{
+    text-decoration: underline;
+    color: black;
+    font-weight: 500;
+    text-decoration-color:  #2FD071;
+}
+.navLinks4:hover{
+    text-decoration: underline;
+    color: black;
+    font-weight: 500;
+    text-decoration-color:  #2FD071;
+}
+.navLinks5:hover{
+    
+    text-decoration: underline;
+    color: black;
+    font-weight: 500;
+    text-decoration-color:  #2FD071;
+}   
