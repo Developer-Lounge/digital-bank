@@ -20,6 +20,7 @@
     top:2px;
     left: 6rem;
     gap: 1rem;
+    color: black;
     font-size: 18px;
     margin-right: 10rem;
 }
@@ -34,8 +35,19 @@
     font-weight: 500;
     cursor: pointer;
     margin-left: 10rem;
+    transition: all 0.3s ease;
 }
 
+.requestInvite:hover{
+    box-shadow: 1px 3px 10px 10px rgba(47, 208, 113, 0.3);
+    opacity: 0.8;
+}
+
+.btn{
+    text-decoration: none;
+    cursor: pointer;
+}
+    
 .navLinks1:hover{
     text-decoration-line: underline;
     color: black;

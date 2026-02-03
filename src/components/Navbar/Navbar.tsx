@@ -13,11 +13,11 @@ const Navbar = () => {
     {/* links */}
 
         <div className={styles.navLinks}>
-            <Link className={styles.navLinks1} href="#" style={{marginRight: '20px', color: '#bcbcbc'}}>Home</Link>
-            <Link className={styles.navLinks2} href="#" style={{marginRight: '20px', color: '#bcbcbc'}}>About</Link>
-            <Link className={styles.navLinks3} href="#" style={{marginRight: '20px',  color: '#bcbcbc'}}>Contact</Link>
-            <Link className={styles.navLinks4} href="#" style={{marginRight: '20px', color: '#bcbcbc'}}>Blog</Link>
-            <Link className={styles.navLinks5} href="#" style={{color: '#bcbcbc'}}>Careers</Link>
+            <Link className={styles.navLinks1} href="#" style={{marginRight: '20px', textUnderlineOffset: '18px', color: '#bcbcbc'}}>Home</Link>
+            <Link className={styles.navLinks2} href="#" style={{marginRight: '20px', textUnderlineOffset: '18px', color: '#bcbcbc'}}>About</Link>
+            <Link className={styles.navLinks3} href="#" style={{marginRight: '20px', textUnderlineOffset: '18px',  color: '#bcbcbc'}}>Contact</Link>
+            <Link className={styles.navLinks4} href="#" style={{marginRight: '20px', textUnderlineOffset: '18px', color: '#bcbcbc'}}>Blog</Link>
+            <Link className={styles.navLinks5} href="#" style={{ textUnderlineOffset: '18px', color: '#bcbcbc'}}>Careers</Link>
         </div>
 
         {/* Request invite button */}
