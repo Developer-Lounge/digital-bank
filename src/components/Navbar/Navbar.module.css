@@ -1,81 +1,96 @@
-.nav{
-    display: flex;
-    position: fixed;
-    margin-left: -45rem;
-    margin-top: -1px;
-    padding: 14px 16px;
-    width: 190rem; 
-    justify-content: center;
-    overflow: hidden;
-    gap: 10.5rem;
+.nav {
+  display: flex;
+  position: fixed;
+  margin-left: -47rem;
+  margin-top: -8px;
+  padding: 14px 16px;
+  width: 190rem;
+  height: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  gap: 10.5rem;
 }
 
-.navImg{
-     margin-left: -1rem;
+.navImg {
+  margin-left: -1rem;
+  /* height: 100%; */
 }
 
-.navLinks{
-    display: flex;
-    position: relative;
-    top:2px;
-    left: 6rem;
-    gap: 1rem;
-    color: black;
-    font-size: 18px;
-    margin-right: 10rem;
+.navLinks {
+  display: flex;
+  position: relative;
+  top: -1px;
+  left: 6rem;
+  gap: 1rem;
+  color: black;
+  font-size: 18px;
+  margin-right: 10rem;
 }
 
-.requestInvite{
-    background: linear-gradient(90deg, #2FD071 0%, #2CBCC7 100%);
-    border: none;
-    border-radius: 50px;
-    color: white;
-    padding: 12px 20px;
-    font-size: 15px;
-    font-weight: 500;
-    cursor: pointer;
-    margin-left: 10rem;
-    transition: all 0.3s ease;
+.requestInvite {
+  background: linear-gradient(90deg, #2fd071 0%, #2cbcc7 100%);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  padding: 12px 20px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 5rem;
+  transition: all 0.3s ease;
 }
 
-.requestInvite:hover{
-    box-shadow: 1px 3px 10px 10px rgba(47, 208, 113, 0.3);
-    opacity: 0.8;
+.requestInvite:hover {
+  box-shadow: 1px 3px 10px 10px rgba(47, 208, 113, 0.3);
+  opacity: 0.8;
+  scale: 1.05;
 }
 
-.btn{
-    text-decoration: none;
-    cursor: pointer;
+.btn {
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
 }
-    
-.navLinks1:hover{
-    text-decoration-line: underline;
-    color: black;
-    font-weight: 500;
-    text-decoration-color:  #2FD071;
+
+.navLinks a {
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
 }
-.navLinks2:hover{
-    text-decoration: underline;
-    color: black;
-    font-weight: 500;
-    text-decoration-color:  #2FD071;
+
+.navLinks1:hover {
+  text-decoration-line: underline;
+  color: black !important;
+  font-weight: 500;
+  text-decoration-color: #2fd071;
 }
-.navLinks3:hover{
-    text-decoration: underline;
-    color: black;
-    font-weight: 500;
-    text-decoration-color:  #2FD071;
+.navLinks2:hover {
+  text-decoration: underline;
+  color: black !important;
+  font-weight: 500;
+  text-decoration-color: #2fd071;
 }
-.navLinks4:hover{
-    text-decoration: underline;
-    color: black;
-    font-weight: 500;
-    text-decoration-color:  #2FD071;
+.navLinks3:hover {
+  text-decoration: underline;
+  color: black !important;
+  font-weight: 500;
+  text-decoration-color: #2fd071;
 }
-.navLinks5:hover{
-    
-    text-decoration: underline;
-    color: black;
-    font-weight: 500;
-    text-decoration-color:  #2FD071;
-}   
+.navLinks4:hover {
+  text-decoration: underline;
+  color: black !important;
+  font-weight: 500;
+  text-decoration-color: #2fd071;
+}
+.navLinks5:hover {
+  text-decoration: underline;
+  color: black !important;
+  font-weight: 500;
+  text-decoration-color: #2fd071;
+}

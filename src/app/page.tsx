@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './globals.css'
 const page = () => {
   return (
-    <div></div>
+    <div className='hero'> Hero</div>
   )
 }
 
