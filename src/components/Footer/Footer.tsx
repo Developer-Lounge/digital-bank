@@ -1,15 +1,17 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./Footer.module.css";
+import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="bg-[#2D314E] h-full p-8">
-      <div className="flex flex-col gap-3">
+    <div className="bg-[#2D314E] h-full flex justify-between p-8">
+      {/* Logo and socials */}
+      <div className="flex flex-col gap-19 ml-20">
         <div className={styles.navImg}>
           <Image src="/logo-light.svg" alt="Logo" width={190} height={50} />
         </div>
-        <div className="flex size-5 flex-cols-1 gap-2 cursor-pointer">
+        <div className="flex size-5 flex-cols-1 gap-6 -mt-2 cursor-pointer">
           <Image
             src="/icon-facebook.svg"
             alt="Social Media Icons"
@@ -47,9 +49,30 @@ const Footer = () => {
           />
         </div>
       </div>
-      <div className={styles.footerText}>
-        {/* <p>© 2024 Digital Bank. All rights reserved.</p> */}
+
+      <div className="flex text-white  relative -left-40 gap-20">
+        <div className="grid gap-3">
+          <Link className="w-full h-6" href="#">About Us</Link>
+          <Link className="w-14 h-6" href="#">Contact</Link>
+          <Link className="w-8 h-6" href="#">Blog</Link>
+        </div>
+
+        <div className="grid gap-3 hover:text-[#2fd071]-600/100">
+          <Link className="w-13 h-6" href="#">Careers</Link>
+          <Link className="w-14 h-6" href="#">Support</Link>
+          <Link className="w-24 h-6" href="#">Privacy Policy</Link>
+        </div>
       </div>
+
+<div className="grid gap-4 left-10">
+    {/* Request invite button */}
+      <div className={styles.requestInvite}>
+        <button className={styles.btn}>Request Invite</button>
+      </div>
+
+      <p className="text-white relative -left-18 -mt-2 text-black text-sm">©DigitalBank. All rights reserved.</p>
+</div>
+
     </div>
   );
 };

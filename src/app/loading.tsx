@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Loader = () => {
   return (
     <StyledWrapper>
-      <div className="boxes">
+      <div className="boxes fixed inset-0 flex items-center justify-center">
         <div className="box">
           <div />
           <div />
@@ -30,6 +30,7 @@ const Loader = () => {
           <div />
         </div>
       </div>
+      <p>PLEASE WAIT...</p>
     </StyledWrapper>
   );
 }
@@ -219,4 +220,5 @@ const StyledWrapper = styled.div`
     }
   }`;
 
+await new Promise(res => setTimeout(res, 1000))
 export default Loader;
