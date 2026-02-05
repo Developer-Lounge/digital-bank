@@ -4,6 +4,7 @@ import Image from "next/image";
 const page = () => {
   return (
     <div className="hero flex justify-between">
+      {/* Left side of the hero section */}
       <div className="grid gap-3 ml-[6.5rem]">
         <p className="text-[3rem] leading-[1.2] text-[#2D314D] w-[24rem]">
           Next generation
@@ -16,6 +17,7 @@ const page = () => {
 
       </div>
 
+      {/* Right side of the hero section */}
       <div className="relative left-[32%] w-auto h-[100%]">
         <Image
           className="relative -left-[12rem] -mt-[15px] h-[46rem] w-[69rem]"
@@ -25,7 +27,7 @@ const page = () => {
           height={190}
         />
         <Image
-          className=" -mt-[20rem] ml-[19rem] h-[55rem] w-[37rem]"
+          className="relative -top-[82rem] -left-[19rem] z-10 mt-[30rem] ml-[19rem] h-[55rem] w-[42rem]"
           src="/image-mockups.png"
           alt="image-mockup"
           width={190}
