@@ -12,6 +12,7 @@
   align-items: center;
   overflow: hidden;
   gap: 10.5rem;
+  z-index: 50;
 }
 
 .navImg {
@@ -94,3 +95,4 @@
   font-weight: 500;
   text-decoration-color: #2fd071;
 }
+
