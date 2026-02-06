@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="bg-[#2D314E] h-full flex justify-between p-8">
+    <div className="bg-[#2D314E] h-full flex justify-between p-8 mt-249">
       {/* Logo and socials */}
       <div className="flex flex-col gap-19 ml-20">
         <div className={styles.navImg}>
@@ -52,27 +52,40 @@ const Footer = () => {
 
       <div className="flex text-white  relative -left-40 gap-20">
         <div className="grid gap-3">
-          <Link className="w-full h-6" href="#">About Us</Link>
-          <Link className="w-14 h-6" href="#">Contact</Link>
-          <Link className="w-8 h-6" href="#">Blog</Link>
+          <Link className="w-full ease-in-out hover:text-[#2fd071] h-6" href="#">
+            About Us
+          </Link>
+          <Link className="w-14 hover:text-[#2fd071] h-6" href="#">
+            Contact
+          </Link>
+          <Link className="w-8 hover:text-[#2fd071] h-6" href="#">
+            Blog
+          </Link>
         </div>
 
         <div className="grid gap-3 hover:text-[#2fd071]-600/100">
-          <Link className="w-13 h-6" href="#">Careers</Link>
-          <Link className="w-14 h-6" href="#">Support</Link>
-          <Link className="w-24 h-6" href="#">Privacy Policy</Link>
+          <Link className="w-13 hover:text-[#2fd071] h-6" href="#">
+            Careers
+          </Link>
+          <Link className="w-14 hover:text-[#2fd071] h-6" href="#">
+            Support
+          </Link>
+          <Link className="w-27 hover:text-[#2fd071] h-6" href="#">
+            Privacy Policy
+          </Link>
         </div>
       </div>
 
-<div className="grid gap-4 left-10">
-    {/* Request invite button */}
-      <div className={styles.requestInvite}>
-        <button className={styles.btn}>Request Invite</button>
+      <div className="grid gap-4 left-10">
+        {/* Request invite button */}
+        <div className={styles.requestInvite}>
+          <button className={styles.btn}>Request Invite</button>
+        </div>
+
+        <p className="text-white relative -left-18 -mt-2 text-sm">
+          ©DigitalBank. All rights reserved.
+        </p>
       </div>
-
-      <p className="text-white relative -left-18 -mt-2 text-black text-sm">©DigitalBank. All rights reserved.</p>
-</div>
-
     </div>
   );
 };

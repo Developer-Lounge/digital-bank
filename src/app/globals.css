@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
-
+*{
+  font-family: var(--font-inter);
+}
 
 .boxes {
   --size: 32px;
