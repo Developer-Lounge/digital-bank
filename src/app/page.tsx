@@ -144,10 +144,18 @@ const page = () => {
           </p>
 
           <div className="flex gap-12 ml-1">
-          <div className=" w-55 h-10 bg-amber-50 "></div>
-          <div className=" w-55 h-10 bg-amber-50 "></div>
-          <div className=" w-55 h-10 bg-amber-50 "></div>
-          <div className=" w-55 h-10 bg-amber-50 "></div>
+          <div className=" w-55 h-10 bg-amber-50 ">
+            <Image src="/image-currency.jpg" alt="currency" width={220} height={40} />
+          </div>
+          <div className=" w-55 h-10 bg-amber-50 ">
+            <Image src="/image-restaurant.jpg" alt="restaurant" width={220} height={40} />
+          </div>
+          <div className=" w-55 h-10 bg-amber-50 ">
+            <Image src="/image-plane.jpg" alt="plane" width={220} height={40} />
+          </div>
+          <div className=" w-55 h-10 bg-amber-50 ">
+            <Image src="/image-confetti.jpg" alt="confetti" width={220} height={40} />
+          </div>
           </div>
         </div>
       </div>
