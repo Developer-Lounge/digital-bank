@@ -11,6 +11,12 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
+export const metadata: Metadata = {
+  title: "Digital Bank Landing Page",
+  description:
+    "A modern digital bank landing page built with Next.js and React.",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -26,9 +32,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-export const metadata: Metadata = {
-  title: "Digital Bank Landing Page",
-  description:
-    "A modern digital bank landing page built with Next.js and React.",
-};

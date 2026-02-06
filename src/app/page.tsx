@@ -5,41 +5,41 @@ const page = () => {
   return (
     <div className="hero flex gap-33 justify-between">
       {/* Left side of the hero section */}
-    
-        <div className="grid gap-3 ml-25">
-          <p className="text-[3rem] leading-[1.2] text-[#2D314D] w-[24rem]">
-            Next generation
-            <br />
-            digital banking
-          </p>
-          <p className="text-[1rem] opacity-[1.90] leading-normal text-[#bcbcbc] w-[25.6rem]">
-            Take your financial life online. Your Digitalbank
-            <br />
-            account will be a one-stop-shop for spending, saving,
-            <br /> budgeting, investing, and much more.
-          </p>
 
-          <button className="requestInvite bg-linear-to-r from-[#2fd071] to-[#2cbcc7] text-white font-medium p-2 w-36 h-12 rounded-full mt-6">
-            Request Invite
-          </button>
-        </div>
+      <div className="grid gap-3 ml-25">
+        <p className="text-[3rem] leading-[1.2] text-[#2D314D] w-[24rem]">
+          Next generation
+          <br />
+          digital banking
+        </p>
+        <p className="text-[1rem] opacity-[1.90] leading-normal text-[#bcbcbc] w-[25.6rem]">
+          Take your financial life online. Your Digitalbank
+          <br />
+          account will be a one-stop-shop for spending, saving,
+          <br /> budgeting, investing, and much more.
+        </p>
 
-        {/* Right side of the hero section */}
-        <div className="relative left-[32%] w-auto h-full">
-          <Image
-            className="relative -left-79.5 -mt-3.75 h-174 w-299"
-            src="/bg-intro-desktop.svg"
-            alt="bg-intro"
-            width={820}
-            height={190}
-          />
-          <Image
-            className="relative -top-311 -left-116 z-10 mt-120 ml-76 h-220 w-2xl"
-            src="/image-mockups.png"
-            alt="image-mockup"
-            width={190}
-            height={200}
-          />
+        <button className="requestInvite bg-linear-to-r from-[#2fd071] to-[#2cbcc7] text-white font-medium p-2 w-36 h-12 rounded-full mt-6">
+          Request Invite
+        </button>
+      </div>
+
+      {/* Right side of the hero section */}
+      <div className="relative left-[32%] w-auto h-full">
+        <Image
+          className="relative -left-79.5 -mt-3.75 h-174 w-299"
+          src="/bg-intro-desktop.svg"
+          alt="bg-intro"
+          width={820}
+          height={190}
+        />
+        <Image
+          className="relative -top-311 -left-116 z-10 mt-120 ml-76 h-220 w-2xl"
+          src="/image-mockups.png"
+          alt="image-mockup"
+          width={190}
+          height={200}
+        />
       </div>
       {/* second section */}
 
@@ -144,22 +144,54 @@ const page = () => {
           </p>
 
           <div className="flex gap-12 ml-1">
-          <div className=" w-55 h-64 bg-[#FFFFFF] shadow-[0_4px_12px_rgba(0,0,0,0.1)] rounded-lg">
-            <Image src="/image-currency.jpg" alt="currency" width={220} height={40} />
-            <p className="text-[#2D314D] text-[10px]  mt-4 ml-4">By Claire Robinson</p>
-          </div>
-          <div className=" w-55 h-64 bg-[#FFFFFF] shadow-[0_4px_12px_rgba(0,0,0,0.1)] rounded-lg ">
-            <Image src="/image-restaurant.jpg" alt="restaurant" width={220} height={40} />
-            <p className="text-[#2D314D] text-[10px] mt-4 ml-4">By Wilson Hutton</p>
-          </div>
-          <div className=" w-55 h-64 bg-[#FFFFFF] shadow-[0_4px_12px_rgba(0,0,0,0.1)] rounded-lg ">
-                <Image src="/image-plane.jpg" alt="plane" width={220} height={40} />
-                <p className="text-[#2D314D] text-[10px] mt-4 ml-4">By Wilson Hutton</p>
-          </div>
-          <div className=" w-55 h-64 bg-[#FFFFFF] shadow-[0_4px_12px_rgba(0,0,0,0.1)] rounded-lg">
-            <Image src="/image-confetti.jpg" alt="confetti" width={220} height={40} />
-            <p className="text-[#2D314D] text-[10px] mt-4 ml-4">By Claire Robinson</p>
-          </div>
+            <div className=" w-55 h-64 bg-[#FFFFFF] shadow-[0_4px_12px_rgba(0,0,0,0.1)] rounded-lg">
+              <Image
+                src="/image-currency.jpg"
+                alt="currency"
+                width={220}
+                height={40}
+              />
+              <p className="text-[#2D314D] text-[10px]  mt-4 ml-4">
+                By Claire Robinson
+              </p>
+            </div>
+
+            <div className=" w-55 h-64 bg-[#FFFFFF] shadow-[0_4px_12px_rgba(0,0,0,0.1)] rounded-lg ">
+              <Image
+                src="/image-restaurant.jpg"
+                alt="restaurant"
+                width={220}
+                height={40}
+              />
+              <p className="text-[#2D314D] text-[10px] mt-4 ml-4">
+                By Wilson Hutton
+              </p>
+            </div>
+
+            <div className=" w-55 h-64 bg-[#FFFFFF] shadow-[0_4px_12px_rgba(0,0,0,0.1)] rounded-lg ">
+              <Image
+                src="/image-plane.jpg"
+                alt="plane"
+                width={220}
+                height={40}
+              />
+              <p className="text-[#2D314D] text-[10px] mt-4 ml-4">
+                By Wilson Hutton
+              </p>
+            </div>
+
+            <div className=" w-55 h-64 bg-[#FFFFFF] shadow-[0_4px_12px_rgba(0,0,0,0.1)] rounded-lg">
+              <Image
+                src="/image-confetti.jpg"
+                alt="confetti"
+                width={220}
+                height={40}
+              />
+              <p className="text-[#2D314D] text-[10px] mt-4 ml-4">
+                By Claire Robinson
+              </p>
+            </div>
+            
           </div>
         </div>
       </div>
