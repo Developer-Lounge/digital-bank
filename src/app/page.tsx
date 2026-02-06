@@ -5,29 +5,35 @@ const page = () => {
   return (
     <div className="hero flex justify-between">
       {/* Left side of the hero section */}
-      <div className="grid gap-3 ml-[6.5rem]">
+      <div className="grid gap-3 ml-26">
         <p className="text-[3rem] leading-[1.2] text-[#2D314D] w-[24rem]">
           Next generation
           <br />
           digital banking
         </p>
-        <p className="text-[1rem] opacity-[1.90] leading-[1.5] text-[#bcbcbc] w-[24rem]">Take your financial life online. Your Digitalbank<br/>account will be a one-stop-shop for spending, saving,<br/> budgeting, investing, and much more.</p>
+        <p className="text-[1rem] opacity-[1.90] leading-normal text-[#bcbcbc] w-[24rem]">
+          Take your financial life online. Your Digitalbank
+          <br />
+          account will be a one-stop-shop for spending, saving,
+          <br /> budgeting, investing, and much more.
+        </p>
 
-        <button className= "requestInvite bg-gradient-to-r from-[#2fd071] to-[#2cbcc7] text-white font-medium p-2 w-[9rem] h-[3rem] rounded-full mt-[1.5rem]">Request Invite</button>
-
+        <button className="requestInvite bg-linear-to-r from-[#2fd071] to-[#2cbcc7] text-white font-medium p-2 w-36 h-12 rounded-full mt-6">
+          Request Invite
+        </button>
       </div>
 
       {/* Right side of the hero section */}
-      <div className="relative left-[32%] w-auto h-[100%]">
+      <div className="relative left-[32%] w-auto h-full">
         <Image
-          className="relative -left-[12rem] -mt-[15px] h-[46rem] w-[69rem]"
+          className="relative -left-48 -mt-3.75 h-184 w-276"
           src="/bg-intro-desktop.svg"
           alt="bg-intro"
           width={820}
           height={190}
         />
         <Image
-          className="relative -top-[82rem] -left-[19rem] z-10 mt-[30rem] ml-[19rem] h-[55rem] w-[42rem]"
+          className="relative -top-328 -left-76 z-10 mt-120 ml-76 h-220 w-2xl"
           src="/image-mockups.png"
           alt="image-mockup"
           width={190}
