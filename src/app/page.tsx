@@ -154,6 +154,13 @@ const page = () => {
               <p className="text-[#2D314D] text-[10px]  mt-4 ml-4">
                 By Claire Robinson
               </p>
+              <p className="text-[#2D314D] text-[15px] mt-2 ml-4">
+                Receive money in any <br/>currency with no fees.
+              </p>
+              <p className="text-[#949494] text-[10px] mt-2 ml-4">
+                The world is getting smaller and <br/> we're becoming more mobile. So <br/>why
+                should you be forced to only <br/> receive money in a single ...
+              </p>
             </div>
 
             <div className=" w-55 h-64 bg-[#FFFFFF] shadow-[0_4px_12px_rgba(0,0,0,0.1)] rounded-lg ">
@@ -165,6 +172,12 @@ const page = () => {
               />
               <p className="text-[#2D314D] text-[10px] mt-4 ml-4">
                 By Wilson Hutton
+              </p>
+              <p className="text-[#2D314D] text-[15px] mt-2 ml-4">
+                Treat yourself without <br/>worrying about money
+              </p>
+              <p className="text-[#949494] text-[10px] mt-2 ml-4">
+                Our simple budgeting feature <br/> allows you to seperate out your<br/>spending and set realistic limits <br/> each month. That means you ...
               </p>
             </div>
 
@@ -178,6 +191,12 @@ const page = () => {
               <p className="text-[#2D314D] text-[10px] mt-4 ml-4">
                 By Wilson Hutton
               </p>
+              <p className="text-[#2D314D] text-[15px] mt-2 ml-4">
+                Take your Digitalbank card <br/>wherever you go.
+              </p>
+              <p className="text-[#949494] text-[10px] mt-2 ml-4">
+                We want you to enjoy your<br/> travels. This is why we don't <br/>charge any fees  on purchases<br/> while you are abroad. We'll even...
+              </p>
             </div>
 
             <div className=" w-55 h-64 bg-[#FFFFFF] shadow-[0_4px_12px_rgba(0,0,0,0.1)] rounded-lg">
@@ -190,8 +209,14 @@ const page = () => {
               <p className="text-[#2D314D] text-[10px] mt-4 ml-4">
                 By Claire Robinson
               </p>
+              <p className="text-[#2D314D] text-[15px] mt-2 ml-4">
+               Our invite-only Beta accounts <br/>are now live!
+              </p>
+              <p className="text-[#949494] text-[10px] mt-2 ml-4">
+                After a lot of hard work by the <br/> whole team, we're excited to <br/>launch our closed beta. It's easy <br/> to request an invite through ...
+              </p>
             </div>
-            
+
           </div>
         </div>
       </div>
