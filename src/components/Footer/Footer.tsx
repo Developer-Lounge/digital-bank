@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="bg-[#2D314E] h-full flex justify-between p-8 mt-249">
+    <div className="bg-[#2D314E] h-full flex justify-between p-8 mt-255">
       {/* Logo and socials */}
       <div className="flex flex-col gap-19 ml-20">
         <div className={styles.navImg}>
