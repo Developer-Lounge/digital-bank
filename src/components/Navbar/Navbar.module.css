@@ -95,3 +95,7 @@
   text-decoration-color: #2fd071;
 }
 
+.hamburger {
+  display: none;
+  cursor: pointer;
+}

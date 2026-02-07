@@ -72,6 +72,15 @@ const Navbar = () => {
       <div className={styles.requestInvite}>
         <button className={styles.btn}>Request Invite</button>
       </div>
+
+          <Image
+            className={styles.hamburger}
+            src="/icon-hamburger.svg"
+            alt="Hamburger Icon"
+            width={24}
+            height={24}
+          />
+
     </main>
   );
 };

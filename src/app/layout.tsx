@@ -4,8 +4,6 @@ import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 
-
-
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
@@ -24,11 +22,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} overflow-x-hidden antialiased`} suppressHydrationWarning>
+      <body
+        className={`${inter.variable} overflow-x-hidden antialiased`}
+        suppressHydrationWarning
+      >
         <Navbar />
         {children}
         <Footer />
       </body>
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+      ></meta>
     </html>
   );
 }
