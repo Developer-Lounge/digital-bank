@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} overflow-x-hidden antialiased`}>
+      <body className={`${inter.variable} overflow-x-hidden antialiased`} suppressHydrationWarning>
         <Navbar />
         {children}
         <Footer />

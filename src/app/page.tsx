@@ -144,22 +144,22 @@ const page = () => {
           </p>
 
           <div className="flex gap-29 ml-1">
-            <div className=" w-55 h-84  bg-[#FFFFFF] shadow-[0_4px_12px_rgba(0,0,0,0.1)] rounded-lg">
+            <div className=" w-57 h-84  bg-[#FFFFFF] shadow-[0_4px_12px_rgba(0,0,0,0.1)] rounded-lg">
               <Image
                 className="rounded-t-lg"
                 src="/image-currency.jpg"
                 alt="currency"
-                width={220}
+                width={230}
                 height={40}
               />
               <p className="text-[#2D314D] text-[10px]  mt-4 ml-4">
                 By Claire Robinson
               </p>
-              <p className="text-[#2D314D] text-[15px] mt-2 ml-4">
+              <p className="subhead text-[#2D314D] cursor-pointer hover:text-[#2fd071] text-[15px] mt-2 ml-4">
                 Receive money in any <br />
                 currency with no fees.
               </p>
-              <p className="text-[#949494] text-[10px] mt-2 ml-4">
+              <p className="text-[#949494] text-[11px] mt-2 ml-4">
                 The world is getting smaller and <br /> we're becoming more
                 mobile. So <br />
                 why should you be forced to only <br /> receive money in a
@@ -167,22 +167,22 @@ const page = () => {
               </p>
             </div>
 
-            <div className=" w-55 h-84 bg-[#FFFFFF] shadow-[0_4px_12px_rgba(0,0,0,0.1)] rounded-lg ">
+            <div className=" w-58 h-84 bg-[#FFFFFF] shadow-[0_4px_12px_rgba(0,0,0,0.1)] rounded-lg ">
               <Image
                 className="rounded-t-lg"
                 src="/image-restaurant.jpg"
                 alt="restaurant"
-                width={220}
+                width={233}
                 height={40}
               />
               <p className="text-[#2D314D] text-[10px] mt-4 ml-4">
                 By Wilson Hutton
               </p>
-              <p className="text-[#2D314D] text-[15px] mt-2 ml-4">
+              <p className="subhead text-[#2D314D] cursor-pointer hover:text-[#2fd071] text-[15px] mt-2 ml-4">
                 Treat yourself without <br />
                 worrying about money
               </p>
-              <p className="text-[#949494] text-[10px] mt-2 ml-4">
+              <p className="text-[#949494] text-[11px] mt-2 ml-4">
                 Our simple budgeting feature <br /> allows you to seperate out
                 your
                 <br />
@@ -191,22 +191,22 @@ const page = () => {
               </p>
             </div>
 
-            <div className=" w-55 h-84 bg-[#FFFFFF] shadow-[0_4px_12px_rgba(0,0,0,0.1)] rounded-lg ">
+            <div className=" w-58 h-84 bg-[#FFFFFF] shadow-[0_4px_12px_rgba(0,0,0,0.1)] rounded-lg ">
               <Image
                 className="rounded-t-lg"
                 src="/image-plane.jpg"
                 alt="plane"
-                width={220}
+                width={233}
                 height={40}
               />
               <p className="text-[#2D314D] text-[10px] mt-4 ml-4">
                 By Wilson Hutton
               </p>
-              <p className="text-[#2D314D] text-[15px] mt-2 ml-4">
+              <p className="subhead text-[#2D314D] cursor-pointer hover:text-[#2fd071] text-[15px] mt-2 ml-4">
                 Take your Digitalbank card <br />
                 wherever you go.
               </p>
-              <p className="text-[#949494] text-[10px] mt-2 ml-4">
+              <p className="text-[#949494] text-[11px] mt-2 ml-4">
                 We want you to enjoy your
                 <br /> travels. This is why we don't <br />
                 charge any fees on purchases
@@ -214,22 +214,22 @@ const page = () => {
               </p>
             </div>
 
-            <div className=" w-55 h-84 bg-[#FFFFFF] shadow-[0_4px_12px_rgba(0,0,0,0.1)] rounded-lg">
+            <div className=" w-58 h-84 bg-[#FFFFFF] shadow-[0_4px_12px_rgba(0,0,0,0.1)] rounded-lg">
               <Image
                 className="rounded-t-lg"
                 src="/image-confetti.jpg"
                 alt="confetti"
-                width={220}
+                width={233}
                 height={40}
               />
               <p className="text-[#2D314D] text-[10px] mt-4 ml-4">
                 By Claire Robinson
               </p>
-              <p className="text-[#2D314D] text-[14px] mt-2 ml-4">
+              <p className="subhead  text-[#2D314D] cursor-pointer hover:text-[#2fd071] text-[14px] mt-2 ml-4">
                 Our invite-only Beta accounts <br />
                 are now live!
               </p>
-              <p className="text-[#949494] text-[10px] mt-2 ml-4">
+              <p className="text-[#949494] text-[11px] mt-2 ml-4">
                 After a lot of hard work by the <br /> whole team, we're excited
                 to <br />
                 launch our closed beta. It's easy <br /> to request an invite

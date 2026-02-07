@@ -218,3 +218,7 @@
   opacity: 0.8;
   scale: 1.05;
 }
+
+.subhead{
+  transition: all 0.3s ease;
+}
